@@ -7,6 +7,7 @@
     <title>Web Bahasa Bali</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <script src="https://use.fontawesome.com/20ab91acc4.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <!-- Home -->
@@ -17,12 +18,15 @@
                     <h2>Balinese Web</h2>
                 </a>
                 <div class="nav-items" id="nav-items">
-                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <i class='bx bx-arrow-back' onclick="hideMenu()"></i>
                     <ul>
                         <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
+                        <li class="garis">|</li>
+                        <li><a href="">About Us</a></li>
+                        <li class="garis">|</li>
                         <li><a href="">Blog</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li class="garis">|</li>
+                        <li><a href="">Contact Us</a></li>
                     </ul>
                 </div>
                 <i class="fa-solid fa-bars" onclick="showMenu()"></i>
@@ -31,11 +35,64 @@
                 <p>THE GATE TO THE FUTURE</p>
                 <h2>Anggah-Ungguhin</h2>
                 <h2>Basa Bali</h2>
-                <button class="read-more">Read More <i class="fas fa-arrow-circle-right"></i></button>
+                <a class="read-more"><span>Read More <i class="fas fa-arrow-circle-right"></span></i></a>
             </div>
     </section>
 
     <!-- about -->
+
+
+
+    <!-- footer -->
+    <footer class="footer">
+
+        <div class="footer-top">
+          <div class="container">
+            <div class="footer-brand-wrapper">
+              <a href="./index.html" class="logo">       
+              </a>
+              <ul class="footer-list">
+                <li>
+                  <a href="#home" class="footer-link">Home</a>
+                </li>
+                <li>
+                  <a href="#about" class="footer-link">About Us</a>
+                </li>
+                <li>
+                  <a href="#anime" class="footer-link">Blog</a>
+                </li>
+                <li>
+                  <a href="#contact" class="footer-link">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="divider"></div>
+            <div class="quicklink-wrapper">
+              <ul class="quicklink-list">    
+                <li>
+                  <a href="#" class="quicklink-link">Faq</a>
+                </li>   
+                <li>
+                  <a href="#" class="quicklink-link">Help center</a>
+                </li> 
+                <li>
+                  <a href="#" class="quicklink-link">Terms of use</a>
+                </li>   
+                <li>
+                  <a href="#" class="quicklink-link">Privacy</a>
+                </li>  
+              </ul>
+                <div class="footer-bottom">
+                <div class="container">       
+                  <p class="copyright">
+                    &copy; 2023 <a href="./index.html">angkulcorp</a>. All Rights Reserved
+                  </p>               
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     <script src="script.js"></script>
 </body>
 </html>
