@@ -45,54 +45,80 @@
 
     <!-- footer -->
     <footer class="footer">
-
-        <div class="footer-top">
-          <div class="container">
-            <div class="footer-brand-wrapper">
-              <a href="./index.html" class="logo">       
-              </a>
-              <ul class="footer-list">
-                <li>
-                  <a href="#home" class="footer-link">Home</a>
-                </li>
-                <li>
-                  <a href="#about" class="footer-link">About Us</a>
-                </li>
-                <li>
-                  <a href="#anime" class="footer-link">Blog</a>
-                </li>
-                <li>
-                  <a href="#contact" class="footer-link">Contact Us</a>
-                </li>
-              </ul>
-            </div>
-            <div class="divider"></div>
-            <div class="quicklink-wrapper">
-              <ul class="quicklink-list">    
-                <li>
-                  <a href="#" class="quicklink-link">Faq</a>
-                </li>   
-                <li>
-                  <a href="#" class="quicklink-link">Help center</a>
-                </li> 
-                <li>
-                  <a href="#" class="quicklink-link">Terms of use</a>
-                </li>   
-                <li>
-                  <a href="#" class="quicklink-link">Privacy</a>
-                </li>  
-              </ul>
-                <div class="footer-bottom">
-                <div class="container">       
-                  <p class="copyright">
-                    &copy; 2023 <a href="./index.html">angkulcorp</a>. All Rights Reserved
-                  </p>               
+        <div class="container">
+            <div class="footer-menu">
+                <div class="footer-utama">
+                <ul class="menu-links">
+                    <h2>Menu Links</h2>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
                 </div>
-              </div>
+                <div class="footer-utama">
+                <ul class="menu-links">
+                    <h2>Our Service</h2>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Web Development</a></li>
+                </ul>
+                </div>
+                <div class="footer-utama">
+                <ul class="menu-links">
+                    <h2>Information</h2>
+                    <h3>About Us</h3>
+                    <li><a href="#">Delivery Information</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Term & Conditions</a></li>
+                </ul>
+                </div>
+                <div class="footer-utama">
+                    <h2 class="contact">Contact Us</h2>
+                <ul class="Contact-Us">
+                    <li><a href="#"><i class='bx bxl-facebook' ></i></a></li>
+                    <li><a href="#" onclick="showInstagramPopup()"><i class='bx bxl-instagram'></i></a></li>
+                    <li><a href="#"><i class='bx bxl-github' ></i></a></li>
+                    <li><a href="#"><i class='bx bxl-gmail' ></i></a></li>
+                </ul>
+                </div>
             </div>
-          </div>
         </div>
-      </footer>
+
+        <div class="popup-overlay" id="instagramPopup">
+            <div class="popup-content">
+                <span class="popup-close" onclick="hideInstagramPopup()">&times;</span>
+                <h2>Instagram</h2>
+                <div class="instagram-grid">
+                    <div class="instagram-siswa">
+                        <a href="https://www.instagram.com/wrld.yukii/"><i class="fab fa-instagram"></i></a>
+                        <p>@wrld.yukii<br>(Bayu)</p>
+                    </div>
+                    <div class="instagram-siswa">
+                        <a href="https://www.instagram.com/hesdnt/"><i class="fab fa-instagram"></i></a>
+                        <p>@hesdnt<br>(Mahesa)</p>
+                    </div>
+                    <div class="instagram-siswa">
+                        <a href="https://www.instagram.com/wrld.yukii/"><i class="fab fa-instagram"></i></a>
+                        <p>Yuu<br>(Programmer)</p>
+                    </div>
+                    <div class="instagram-siswa">
+                        <a href="https://www.instagram.com/wrld.yukii/"><i class="fab fa-instagram"></i></a>
+                        <p>Yuu<br>(Programmer)</p>
+                    </div>
+                    <div class="instagram-siswa">
+                        <a href="https://www.instagram.com/wrld.yukii/"><i class="fab fa-instagram"></i></a>
+                        <p>Yuu<br>(Programmer)</p>
+                    </div>
+                    <div class="instagram-siswa">
+                        <a href="https://www.instagram.com/wrld.yukii/"><i class="fab fa-instagram"></i></a>
+                        <p>Yuu<br>(Programmer)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
     <script src="script.js"></script>
 </body>
 </html>
