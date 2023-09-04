@@ -76,15 +76,15 @@
                 <div class="footer-utama">
                     <h2 class="contact">Contact Us</h2>
                 <ul class="Contact-Us">
-                    <li><a href="#"><i class='bx bxl-facebook' ></i></a></li>
-                    <li><a href="#" onclick="showInstagramPopup()"><i class='bx bxl-instagram'></i></a></li>
-                    <li><a href="#"><i class='bx bxl-github' ></i></a></li>
-                    <li><a href="#"><i class='bx bxl-gmail' ></i></a></li>
+                    <li><a href="#" class="facebook" onclick="showFacebookPopup(event)"><i class='bx bxl-facebook' ></i></a></li>
+                    <li><a href="#" class="instagram" onclick="showInstagramPopup(event)"><i class='bx bxl-instagram'></i></a></li>
+                    <li><a href="#" class="github" onclick="showGithubPopup(event)"><i class='bx bxl-github' ></i></a></li>
+                    <li><a href="#" class="gmail" onclick="showGmailPopup(event)"><i class='bx bxl-gmail' ></i></a></li>
                 </ul>
                 </div>
             </div>
         </div>
-
+<!-- Pop Up Instagram -->
         <div class="popup-overlay" id="instagramPopup">
             <div class="popup-content">
                 <span class="popup-close" onclick="hideInstagramPopup()">&times;</span>
@@ -99,24 +99,95 @@
                         <p>@hesdnt<br>(Mahesa)</p>
                     </div>
                     <div class="instagram-siswa">
-                        <a href="https://www.instagram.com/wrld.yukii/"><i class="fab fa-instagram"></i></a>
-                        <p>Yuu<br>(Programmer)</p>
+                        <a href="https://www.instagram.com/_rhma_ptra_/"><i class="fab fa-instagram"></i></a>
+                        <p>@_rhma_ptra_<br>(Rahma)</p>
                     </div>
                     <div class="instagram-siswa">
-                        <a href="https://www.instagram.com/wrld.yukii/"><i class="fab fa-instagram"></i></a>
-                        <p>Yuu<br>(Programmer)</p>
+                        <a href="https://www.instagram.com/smileverin/"><i class="fab fa-instagram"></i></a>
+                        <p>@smileverin<br>(Laverina)</p>
                     </div>
                     <div class="instagram-siswa">
-                        <a href="https://www.instagram.com/wrld.yukii/"><i class="fab fa-instagram"></i></a>
-                        <p>Yuu<br>(Programmer)</p>
+                        <a href="https://www.instagram.com/yesput_/"><i class="fab fa-instagram"></i></a>
+                        <p>@yesput_<br>(Yessa)</p>
                     </div>
                     <div class="instagram-siswa">
-                        <a href="https://www.instagram.com/wrld.yukii/"><i class="fab fa-instagram"></i></a>
-                        <p>Yuu<br>(Programmer)</p>
+                        <a href="https://www.instagram.com/sastraaaaa._/"><i class="fab fa-instagram"></i></a>
+                        <p>@sastraaaaa._<br>(Sastra)</p>
                     </div>
                 </div>
             </div>
         </div>
+
+<!-- Pop Up facebook -->
+<div class="popup-overlay" id="facebookPopup">
+    <div class="popup-content">
+        <span class="popup-close" onclick="hideFacebookPopup()">&times;</span>
+        <h2>Facebook</h2>
+        <div class="facebook-grid">
+            <div class="facebook-siswa">
+                <a href="https://www.facebook.com/profile.php?id=100093992538015"><i class="bx bxl-facebook"></i></a>
+                <p>Yukii Stres<br>(Bayu)</p>
+            </div>
+            <div class="facebook-siswa">
+                <a href="https://www.facebook.com/yessa.putri.31"><i class="bx bxl-facebook"></i></a>
+                <p>Yessa Putri<br>(Yessa)</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Pop Up GitHub -->
+    <div class="popup-overlay" id="gitHubPopup">
+        <div class="popup-content">
+            <span class="popup-close" onclick="hideGithubPopup()">&times;</span>
+            <h2>GitHub</h2>
+            <div class="facebook-grid">
+                <div class="facebook-siswa">
+                <a href="https://github.com/YuuXD26"><i class="fab fa-github"></i></a>
+                <p>Yukii stres<br>(Bayu)</p>
+                </div>
+                <div class="facebook-siswa">
+                <a href="https://github.com/Zavelous"><i class="fab fa-github"></i></a>
+                <p>Zavelous<br>(Rahma)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Pop Up Gmail -->
+
+    <div class="popup-overlay" id="gmailPopup">
+        <div class="popup-content">
+            <span class="popup-close" onclick="hideGmailPopup()">&times;</span>
+            <h2>Instagram</h2>
+            <div class="instagram-grid">
+                <div class="instagram-siswa">
+                    <a href="bayuardana213@gmail.com"><i class="bx bxl-gmail"></i></a>
+                    <p>Bayu</p>
+                </div>
+                <div class="instagram-siswa">
+                    <a href="dwilaverina986@gmail.com"><i class="bx bxl-gmail"></i></a>
+                    <p>Laverina</p>
+                </div>
+                <div class="instagram-siswa">
+                    <a href="rahmaputra2006@gmail.com"><i class="bx bxl-gmail"></i></a>
+                    <p>Rahma</p>
+                </div>
+                <div class="instagram-siswa">
+                    <a href="putuyessa23@gmail.com"><i class="bx bxl-gmail"></i></a>
+                    <p>Yessa</p>
+                </div>
+                <div class="instagram-siswa">
+                    <a href="mahesaadinata45@gmail.com"><i class="bx bxl-gmail"></i></a>
+                    <p>Mahesa</p>
+                </div>
+                <div class="instagram-siswa">
+                    <a href="sastrajaya321@gmail.com"><i class="bx bxl-gmail"></i></a>
+                    <p>Sastra</p>
+                </div>
+            </div>
+        </div>
+    </div>
     </footer>
     
     <script src="script.js"></script>
